@@ -1,0 +1,20 @@
+{
+  "name": "nfl-spread",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cliqz/adblocker-playwright": "^1.33.2",
+    "@tensorflow/tfjs": "^4.21.0",
+    "csv-generate": "^4.4.1",
+    "puppeteer": "^23.4.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4"
+  }
+}
