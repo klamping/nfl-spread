@@ -4,57 +4,52 @@ const { existsSync, writeFileSync } = require("fs");
 
 
 const historical = false;
-let weeks = ["2024-10-16"];
+let weeks = ["2024-12-11"];
 
 if (historical) {
   const allWeeks = require("./weeks.json");
   weeks = allWeeks.weeks;
 }
 
-// To add... 
-// - Travel and Rest Factors
-// - Weather
-// - Opponent Strength/SOS
-// - Injuries
-// - ATS Record
 const stats = [
-  "average-scoring-margin",
   "points-per-game",
+  "average-scoring-margin",
   "opponent-points-per-game",
   "rushing-yards-per-game",
   "passing-yards-per-game",
   "giveaways-per-game",
+  "touchdowns-per-game",
   "other-touchdowns-per-game",
   "tackles-per-game",
   "opponent-tackles-per-game",
-  // "opponent-yards-per-game",
+  "opponent-yards-per-game",
   "opponent-rushing-yards-per-game",
   "opponent-passing-yards-per-game",
-  // "red-zone-scoring-attempts-per-game",
+  "red-zone-scoring-attempts-per-game",
   // "red-zone-scores-per-game",
   "red-zone-scoring-pct",
-  // "third-downs-per-game",
+  "third-downs-per-game",
   "third-down-conversions-per-game",
   "opponent-third-down-conversion-pct",
-  // "opponent-third-downs-per-game",
-  // "opponent-third-down-conversions-per-game",
+  "opponent-third-downs-per-game",
+  "opponent-third-down-conversions-per-game",
   "average-time-of-possession-net-of-ot",
   "time-of-possession-pct-net-of-ot",
-  // "seconds-per-play",
-  // "qb-sacked-per-game",
-  // "qb-sacked-pct",
-  // "sacks-per-game",
+  "seconds-per-play",
+  "qb-sacked-per-game",
+  "qb-sacked-pct",
+  "sacks-per-game",
   "sack-pct",
-  // "interceptions-thrown-per-game",
-  // "fumbles-per-game",
+  "interceptions-thrown-per-game",
+  "fumbles-per-game",
   "takeaways-per-game",
   "turnover-margin-per-game",
-  // "penalty-yards-per-game",
+  "penalty-yards-per-game",
   "penalties-per-game",
   "penalty-first-downs-per-game",
-  // "opponent-penalty-yards-per-game",
+  "opponent-penalty-yards-per-game",
   "opponent-penalty-first-downs-per-game",
-  // "penalties-per-play",
+  "penalties-per-play",
 ];
 
 for (const week of weeks) {

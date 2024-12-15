@@ -1,15 +1,26 @@
 const fs = require('fs');
 const path = require('path');
+const { parseArgs } = require('node:util');
+
+const { values } = parseArgs({ 
+  options: {
+    date: {
+      type: 'string',
+      short: 'd',
+    }
+  }
+});
+
+const week = values.date;
+const useSpecificWeek = !!week;
+
+const outputPath = useSpecificWeek ? week + '-team-stats' : "all-weekly-data-3";
 
 // Directory containing JSON files
-const directoryPath = './results/weekly-stats'; // Change this to your directory path
+const directoryPath = './results/weekly-stats';
 
 // Object to hold the collated data
 const collatedData = {};
-
-const useSingleWeek = true;
-const week = '2024-10-16';
-const outputPath = useSingleWeek ? week + '-team-stats' : "all-weekly-data-2";
 
 // Read all files in the directory
 fs.readdir(directoryPath, (err, files) => {
@@ -17,7 +28,7 @@ fs.readdir(directoryPath, (err, files) => {
     return console.error('Unable to scan directory:', err);
   }
 
-  if (useSingleWeek) {
+  if (useSpecificWeek) {
     files = files.filter((file) => file.includes(week));
   }
 
@@ -25,8 +36,6 @@ fs.readdir(directoryPath, (err, files) => {
   // Loop through each file in the directory
   files.forEach((file) => {
     const filePath = path.join(directoryPath, file);
-
-    // const week = '2024-10-09';
 
     // Ensure we're only reading .json files
     if (path.extname(file) === '.json') {

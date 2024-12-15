@@ -3,7 +3,7 @@ const { writeFileSync } = require("fs");
 
 const mapTeamName = require("../mapTeamName.js");
 
-const week = 7;
+const week = 15;
 const year = 2024;
 
 test("Get games for week " + week, async ({ page }) => {

@@ -17,14 +17,14 @@ module.exports = defineConfig({
   fullyParallel: true,
   retries: 2,
   /* Opt out of parallel tests on CI. */
-  workers: '90%',
+  workers: 6,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: "html",
+  reporter: "list",
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
-    trace: "retain-on-failure",
+    trace: "off",
   },
 
   /* Configure projects for major browsers */
