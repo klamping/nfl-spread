@@ -1,0 +1,14 @@
+Final Model Accuracy: 0.5481727574750831
+Final Model Confusion Matrix:
+[[86 69]
+ [67 79]]
+Final Model Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.55      0.56       155
+           1       0.53      0.54      0.54       146
+
+    accuracy                           0.55       301
+   macro avg       0.55      0.55      0.55       301
+weighted avg       0.55      0.55      0.55       301
+

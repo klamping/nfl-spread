@@ -1,17 +1,18 @@
 const { test } = require("@playwright/test");
 const teams = require("../teams.js");
 const { existsSync, writeFileSync } = require("fs");
+const season = require('../season-2025.json');
 
-
-const historical = false;
-let weeks = ["2024-12-11"];
+const weekNo = process.env.WEEK_NO || 4;
+const historical = process.env.HISTORICAL || false;
+let weeks = [season.weeks[weekNo - 1]];
 
 if (historical) {
   const allWeeks = require("./weeks.json");
   weeks = allWeeks.weeks;
 }
 
-const stats = [
+const oldStats = [
   "points-per-game",
   "average-scoring-margin",
   "opponent-points-per-game",
@@ -51,6 +52,33 @@ const stats = [
   "opponent-penalty-first-downs-per-game",
   "penalties-per-play",
 ];
+
+const stats = [
+  'yards-per-game',
+  'points-per-game',
+  'touchdowns-per-game',
+  'extra-points-made-per-game',
+  'completion-pct',
+  'passing-yards-per-game',
+  'passing-first-downs-per-game',
+  'passing-touchdown-pct',
+  'yards-per-pass-attempt',
+  'average-time-of-possession-net-of-ot',
+  'rushing-attempts-per-game',  
+  'first-downs-per-game',
+  'third-down-conversion-pct',
+  'fourth-downs-per-game',
+  'punt-attempts-per-game',
+  'net-punt-yards-per-game',
+  'kickoffs-per-game',
+  'kicking-points-per-game',
+  'turnover-margin-per-game',
+  'giveaways-per-game',
+  'takeaways-per-game',
+  'pass-intercepted-pct',
+  'opponent-fumbles-per-game',
+  'interceptions-per-game'
+]
 
 for (const week of weeks) {
   test.describe(`Get team stats for week of ${week}`, async () => {

@@ -23,13 +23,13 @@ args = parser.parse_args()
 data_version = args.model
 import os
 
-data_path = os.path.join(os.getcwd(), f'../model-data/seasons-no-2024-{data_version}.csv')
+data_path = os.path.join(os.getcwd(), f'../model-data/seasons-no-2024.csv')
 data = pd.read_csv(data_path)
 # Verify data is loaded correctly
 
 # Separate features and target
-X = data.drop('Favorite Covered Spread', axis=1)
-y = data['Favorite Covered Spread']
+X = data.drop('Target', axis=1)
+y = data['Target']
 
 # Handle missing values if any
 if X.isnull().values.any():
@@ -88,7 +88,7 @@ for train_index, test_index in skf.split(X_resampled, y_resampled):
     )
 
     model_checkpoint = ModelCheckpoint(
-        filepath=os.path.join(os.getcwd(), f'best_model_{data_version}_trimmed.keras'),
+        filepath=os.path.join(os.getcwd(), f'best_model_{data_version}_diffs.keras'),
         monitor='val_loss',
         save_best_only=True
     )
@@ -104,7 +104,7 @@ for train_index, test_index in skf.split(X_resampled, y_resampled):
     )
 
     # Load the best saved model
-    model.load_weights(os.path.join(os.getcwd(), f'best_model_{data_version}_trimmed.keras'))
+    model.load_weights(os.path.join(os.getcwd(), f'best_model_{data_version}_diffs.keras'))
 
     # Evaluate the model on the test set
     y_pred_prob = model(X_test, training=False)
@@ -142,8 +142,8 @@ print(f"Classification Report for Best Balanced Model (Fold {best_model_index + 
 print(classification_report(y_resampled.iloc[best_test_index], y_pred_best))
 
 # Save the scaler
-scaler_path = os.path.join(os.getcwd(), f'scaler_{data_version}_trimmed.save')
+scaler_path = os.path.join(os.getcwd(), f'models/scaler_{data_version}_diffs.save')
 joblib.dump(scaler, scaler_path)
 
 # Save the best balanced model
-best_model.save(os.path.join(os.getcwd(), f'best_balanced_model_{data_version}_trimmed.keras'))
+best_model.save(os.path.join(os.getcwd(), f'models/best_balanced_model_{data_version}_diffs.keras'))

@@ -1,0 +1,82 @@
+[
+    {
+        "Matchup": "San Francisco (-3.5) vs LA Rams",
+        "Prediction": 0.35702717304229736,
+        "Spread": "3.5"
+    },
+    {
+        "Matchup": "Carolina (-3.5) vs Dallas",
+        "Prediction": 0.43523991107940674,
+        "Spread": "3.5"
+    },
+    {
+        "Matchup": "Kansas City (-4.5) @ Cleveland",
+        "Prediction": 0.6244206428527832,
+        "Spread": "4.5"
+    },
+    {
+        "Matchup": "Houston (-3.5) vs Miami",
+        "Prediction": 0.5841968059539795,
+        "Spread": "3.5"
+    },
+    {
+        "Matchup": "NY Jets (-3.5) @ Jacksonville",
+        "Prediction": 0.2955411672592163,
+        "Spread": "3.5"
+    },
+    {
+        "Matchup": "Washington (-7.5) @ New Orleans",
+        "Prediction": 0.638685941696167,
+        "Spread": "7.5"
+    },
+    {
+        "Matchup": "Baltimore (-16.5) @ NY Giants",
+        "Prediction": 0.23152105510234833,
+        "Spread": "16.5"
+    },
+    {
+        "Matchup": "Cincinnati (-5.5) @ Tennessee",
+        "Prediction": 0.7439923286437988,
+        "Spread": "5.5"
+    },
+    {
+        "Matchup": "Arizona (-6.5) vs New England",
+        "Prediction": 0.40522080659866333,
+        "Spread": "6.5"
+    },
+    {
+        "Matchup": "Denver (-4.5) vs Indianapolis",
+        "Prediction": 0.45872655510902405,
+        "Spread": "4.5"
+    },
+    {
+        "Matchup": "Detroit (-2.5) vs Buffalo",
+        "Prediction": 0.4799092411994934,
+        "Spread": "2.5"
+    },
+    {
+        "Matchup": "LA Chargers (-3.5) vs Tampa Bay",
+        "Prediction": 0.24942776560783386,
+        "Spread": "3.5"
+    },
+    {
+        "Matchup": "Philadelphia (-5.5) vs Pittsburgh",
+        "Prediction": 0.40041837096214294,
+        "Spread": "5.5"
+    },
+    {
+        "Matchup": "Green Bay (-2.5) @ Seattle",
+        "Prediction": 0.2788565754890442,
+        "Spread": "2.5"
+    },
+    {
+        "Matchup": "Minnesota (-7.5) vs Chicago",
+        "Prediction": 0.5682709217071533,
+        "Spread": "7.5"
+    },
+    {
+        "Matchup": "Atlanta (-4.5) @ Las Vegas",
+        "Prediction": 0.3615066409111023,
+        "Spread": "4.5"
+    }
+]

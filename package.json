@@ -12,6 +12,7 @@
     "@tensorflow/tfjs": "^4.21.0",
     "chart.js": "^3.9.1",
     "chartjs-node-canvas": "^4.1.6",
+    "console-table-printer": "^2.14.6",
     "csv-generate": "^4.4.1",
     "csv-parser": "^3.0.0",
     "open": "^10.1.0",

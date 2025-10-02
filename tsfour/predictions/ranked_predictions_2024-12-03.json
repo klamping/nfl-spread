@@ -1,0 +1,145 @@
+[
+  {
+    "Matchup": "Arizona (-2.5) vs Seattle",
+    "Prediction": 0.5199346542358398,
+    "Spread": "2.5",
+    "WillCoverSpread": true,
+    "WeightedConfidence": 0.536829268292683,
+    "SpreadPercent": 0.53,
+    "ConfidencePercent": 0.5317073170731708,
+    "Confidence": 0.019934654235839844,
+    "points": 13
+  },
+  {
+    "Matchup": "Detroit (-3.5) vs Green Bay",
+    "Prediction": 0.4936037063598633,
+    "Spread": "3.5",
+    "WillCoverSpread": false,
+    "WeightedConfidence": 0.3473684210526311,
+    "SpreadPercent": 0.5298245614035089,
+    "ConfidencePercent": 0.4842105263157894,
+    "Confidence": 0.006396293640136719,
+    "points": 12
+  },
+  {
+    "Matchup": "Minnesota (-5.5) vs Atlanta",
+    "Prediction": 0.47567954659461975,
+    "Spread": "5.5",
+    "WillCoverSpread": false,
+    "WeightedConfidence": 0.5713248638838475,
+    "SpreadPercent": 0.4551724137931034,
+    "ConfidencePercent": 0.4842105263157894,
+    "Confidence": 0.02432045340538025,
+    "points": 11
+  },
+  {
+    "Matchup": "Tennessee (-3.5) vs Jacksonville",
+    "Prediction": 0.4627518057823181,
+    "Spread": "3.5",
+    "WillCoverSpread": false,
+    "WeightedConfidence": 0.3473684210526311,
+    "SpreadPercent": 0.5298245614035089,
+    "ConfidencePercent": 0.4842105263157894,
+    "Confidence": 0.037248194217681885,
+    "points": 10
+  },
+  {
+    "Matchup": "New Orleans (-4.5) @ NY Giants",
+    "Prediction": 0.24244573712348938,
+    "Spread": "4.5",
+    "WillCoverSpread": false,
+    "WeightedConfidence": 0.2535496957403649,
+    "SpreadPercent": 0.5586206896551724,
+    "ConfidencePercent": 0.48235294117647054,
+    "Confidence": 0.2575542628765106,
+    "points": 9
+  },
+  {
+    "Matchup": "Philadelphia (-12.5) vs Carolina",
+    "Prediction": 0.5858656167984009,
+    "Spread": "12.5",
+    "WillCoverSpread": true,
+    "WeightedConfidence": 0.45572755417956645,
+    "SpreadPercent": 0.4235294117647059,
+    "ConfidencePercent": 0.431578947368421,
+    "Confidence": 0.08586561679840088,
+    "points": 8
+  },
+  {
+    "Matchup": "Pittsburgh (-6.5) vs Cleveland",
+    "Prediction": 0.5942941904067993,
+    "Spread": "6.5",
+    "WillCoverSpread": true,
+    "WeightedConfidence": 0.29690402476780187,
+    "SpreadPercent": 0.4764705882352941,
+    "ConfidencePercent": 0.431578947368421,
+    "Confidence": 0.09429419040679932,
+    "points": 7
+  },
+  {
+    "Matchup": "Buffalo (-3.5) @ LA Rams",
+    "Prediction": 0.5562745332717896,
+    "Spread": "3.5",
+    "WillCoverSpread": true,
+    "WeightedConfidence": 0.13684210526315743,
+    "SpreadPercent": 0.5298245614035089,
+    "ConfidencePercent": 0.431578947368421,
+    "Confidence": 0.05627453327178955,
+    "points": 6
+  },
+  {
+    "Matchup": "San Francisco (-3.5) vs Chicago",
+    "Prediction": 0.30992525815963745,
+    "Spread": "3.5",
+    "WillCoverSpread": false,
+    "WeightedConfidence": 0.10464396284829691,
+    "SpreadPercent": 0.5298245614035089,
+    "ConfidencePercent": 0.4235294117647059,
+    "Confidence": 0.19007474184036255,
+    "points": 5
+  },
+  {
+    "Matchup": "Miami (-5.5) vs NY Jets",
+    "Prediction": 0.39224058389663696,
+    "Spread": "5.5",
+    "WillCoverSpread": false,
+    "WeightedConfidence": 0.2744827586206897,
+    "SpreadPercent": 0.4551724137931034,
+    "ConfidencePercent": 0.41,
+    "Confidence": 0.10775941610336304,
+    "points": 4
+  },
+  {
+    "Matchup": "Tampa Bay (-6.5) vs Las Vegas",
+    "Prediction": 0.3778895139694214,
+    "Spread": "6.5",
+    "WillCoverSpread": false,
+    "WeightedConfidence": 0.21058823529411774,
+    "SpreadPercent": 0.4764705882352941,
+    "ConfidencePercent": 0.41,
+    "Confidence": 0.12211048603057861,
+    "points": 3
+  },
+  {
+    "Matchup": "Kansas City (-4.5) vs LA Chargers",
+    "Prediction": 0.35803869366645813,
+    "Spread": "4.5",
+    "WillCoverSpread": false,
+    "WeightedConfidence": -0.03586206896551736,
+    "SpreadPercent": 0.5586206896551724,
+    "ConfidencePercent": 0.41,
+    "Confidence": 0.14196130633354187,
+    "points": 2
+  },
+  {
+    "Matchup": "Cincinnati (-5.5) @ Dallas",
+    "Prediction": 0.39899468421936035,
+    "Spread": "5.5",
+    "WillCoverSpread": false,
+    "WeightedConfidence": 0.2744827586206897,
+    "SpreadPercent": 0.4551724137931034,
+    "ConfidencePercent": 0.41,
+    "Confidence": 0.10100531578063965,
+    "points": 1
+  }
+]

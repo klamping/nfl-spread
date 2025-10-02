@@ -1,0 +1,167 @@
+[
+  {
+    "Matchup": "San Francisco (-1.5) vs Kansas City",
+    "Spread": 1.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 5.3682224342,
+    "Agree": true,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 15
+  },
+  {
+    "Matchup": "Atlanta (-3.5) vs Seattle",
+    "Spread": 3.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 4.184801364,
+    "Agree": true,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 14
+  },
+  {
+    "Matchup": "Baltimore (-3.5) @ Tampa Bay",
+    "Spread": 3.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 2.1226145816,
+    "Agree": true,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 13
+  },
+  {
+    "Matchup": "LA Chargers (-2.5) @ Arizona",
+    "Spread": 2.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 1.8654442252,
+    "Agree": true,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 12
+  },
+  {
+    "Matchup": "Philadelphia (-3.5) @ NY Giants",
+    "Spread": 3.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 1.7519882944,
+    "Agree": true,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 11
+  },
+  {
+    "Matchup": "Denver (-3.5) @ New Orleans",
+    "Spread": 3.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 1.5881658199,
+    "Agree": true,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 10
+  },
+  {
+    "Matchup": "NY Jets (-2.5) @ Pittsburgh",
+    "Spread": 2.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 1.1500418691,
+    "Agree": true,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 9
+  },
+  {
+    "Matchup": "Cincinnati (-5.5) @ Cleveland",
+    "Spread": 5.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 0.9483160527,
+    "Agree": true,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 8
+  },
+  {
+    "Matchup": "Green Bay (-3.5) vs Houston",
+    "Spread": 3.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 2.1810522387,
+    "Agree": false,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 7
+  },
+  {
+    "Matchup": "Buffalo (-9.5) vs Tennessee",
+    "Spread": 9.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": false,
+    "PointDiff": 1.9309516882,
+    "Agree": false,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 6
+  },
+  {
+    "Matchup": "Jacksonville (-6.5) vs New England",
+    "Spread": 6.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 1.8508883742,
+    "Agree": false,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 5
+  },
+  {
+    "Matchup": "Indianapolis (-3.5) vs Miami",
+    "Spread": 3.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 1.644403447,
+    "Agree": false,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 4
+  },
+  {
+    "Matchup": "LA Rams (-7.5) vs Las Vegas",
+    "Spread": 7.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": false,
+    "PointDiff": 0.9483038658,
+    "Agree": false,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 3
+  },
+  {
+    "Matchup": "Minnesota (-1.5) vs Detroit",
+    "Spread": 1.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 0.3434398359,
+    "Agree": false,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 2
+  },
+  {
+    "Matchup": "Washington (-8.5) vs Carolina",
+    "Spread": 8.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 0.3412326761,
+    "Agree": false,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 1
+  }
+]

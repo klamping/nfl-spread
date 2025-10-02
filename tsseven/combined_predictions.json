@@ -1,0 +1,178 @@
+[
+  {
+    "Matchup": "Minnesota (-7.5) vs Chicago",
+    "Spread": 7.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 5.0222171695,
+    "Agree": true,
+    "Covers": true,
+    "WillCoverSpread": true,
+    "points": 16
+  },
+  {
+    "Matchup": "Philadelphia (-5.5) vs Pittsburgh",
+    "Spread": 5.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 3.2558110813,
+    "Agree": true,
+    "Covers": false,
+    "WillCoverSpread": false,
+    "points": 15
+  },
+  {
+    "Matchup": "San Francisco (-3.5) vs LA Rams",
+    "Spread": 3.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 2.5864004259,
+    "Agree": true,
+    "Covers": true,
+    "WillCoverSpread": true,
+    "points": 14
+  },
+  {
+    "Matchup": "NY Jets (-3.5) @ Jacksonville",
+    "Spread": 3.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 1.5842505092,
+    "Agree": true,
+    "Covers": true,
+    "WillCoverSpread": true,
+    "points": 13
+  },
+  {
+    "Matchup": "Arizona (-6.5) vs New England",
+    "Spread": 6.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 0.9659494483,
+    "Agree": true,
+    "Covers": false,
+    "WillCoverSpread": false,
+    "points": 12
+  },
+  {
+    "Matchup": "LA Chargers (-3.5) vs Tampa Bay",
+    "Spread": 3.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 0.8369553308,
+    "Agree": true,
+    "Covers": false,
+    "WillCoverSpread": false,
+    "points": 11
+  },
+  {
+    "Matchup": "Cincinnati (-5.5) @ Tennessee",
+    "Spread": 5.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 0.6609449663,
+    "Agree": true,
+    "Covers": true,
+    "WillCoverSpread": true,
+    "points": 10
+  },
+  {
+    "Matchup": "Carolina (-3.5) vs Dallas",
+    "Spread": 3.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 0.0152953781,
+    "Agree": true,
+    "Covers": false,
+    "WillCoverSpread": false,
+    "points": 9
+  },
+  {
+    "Matchup": "Baltimore (-16.5) @ NY Giants",
+    "Spread": 16.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": false,
+    "PointDiff": 7.7003183513,
+    "Agree": false,
+    "Covers": false,
+    "WillCoverSpread": false,
+    "points": 8
+  },
+  {
+    "Matchup": "Green Bay (-2.5) @ Seattle",
+    "Spread": 2.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 3.5691770943,
+    "Agree": false,
+    "Covers": true,
+    "WillCoverSpread": true,
+    "points": 7
+  },
+  {
+    "Matchup": "Detroit (-2.5) vs Buffalo",
+    "Spread": 2.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 2.2980909893,
+    "Agree": false,
+    "Covers": true,
+    "WillCoverSpread": true,
+    "points": 6
+  },
+  {
+    "Matchup": "Kansas City (-4.5) @ Cleveland",
+    "Spread": 4.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 1.7669364379,
+    "Agree": false,
+    "Covers": true,
+    "WillCoverSpread": true,
+    "points": 5
+  },
+  {
+    "Matchup": "Atlanta (-4.5) @ Las Vegas",
+    "Spread": 4.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 1.5542144036,
+    "Agree": false,
+    "Covers": true,
+    "WillCoverSpread": true,
+    "points": 4
+  },
+  {
+    "Matchup": "Denver (-4.5) vs Indianapolis",
+    "Spread": 4.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": false,
+    "PointDiff": 0.9055730211,
+    "Agree": false,
+    "Covers": false,
+    "WillCoverSpread": false,
+    "points": 3
+  },
+  {
+    "Matchup": "Washington (-7.5) @ New Orleans",
+    "Spread": 7.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": false,
+    "PointDiff": 0.7768778452,
+    "Agree": false,
+    "Covers": false,
+    "WillCoverSpread": false,
+    "points": 2
+  },
+  {
+    "Matchup": "Houston (-3.5) vs Miami",
+    "Spread": 3.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 0.1551695476,
+    "Agree": false,
+    "Covers": true,
+    "WillCoverSpread": true,
+    "points": 1
+  }
+]

@@ -1,0 +1,41 @@
+,Correlation,P-Value,Significant
+Is Favorite Home Team,0.24441610940027153,4.520316874688387e-31,True
+Underdog: Average Scoring Margin This Season,0.08818574568096901,3.6769850313562596e-05,True
+Underdog: Opponent Points per Game This Season,-0.08512764385690723,6.797948964681872e-05,True
+Underdog: Penalty First Downs per Game Last 3 Games,0.07671174888086678,0.00033293322715201247,True
+Underdog: Average Scoring Margin Last 3 Games,0.07485286772939284,0.0004634635746317591,True
+Underdog: Opponent Yards per Game This Season,-0.0736781277010224,0.0005690895216501778,True
+Underdog Win Percent,0.07134636027205574,0.0008481187891561957,True
+Favorite: Touchdowns per Game This Season,-0.06885226119632039,0.0012833755001901237,True
+Underdog: Opponent Rushing Yards per Game This Season,-0.06454437493359111,0.0025462459494921047,True
+Underdog: Penalties per Game @,0.06309802319131232,0.003177434849805008,True
+Underdog: Red Zone Scoring Attempts per Game Last 3 Games,0.05992372494660686,0.005088978648344683,True
+Underdog: Penalties per Play @,0.05959666821590249,0.005335791094536983,True
+Favorite: Points per Game This Season,-0.05747444251960023,0.007217193325104538,True
+Underdog: Points per Game Last 3 Games,0.05529710838005459,0.009745985246888649,True
+Underdog: Opponent Penalty Yards per Game Last 3 Games,0.05486765068972541,0.010329195957479992,True
+Underdog: Opponent Points per Game Last 3 Games,-0.05340597794286682,0.012553554163241417,True
+Favorite: Passing Yards per Game Last 3 Games,-0.05234011653729641,0.01443300106096115,True
+Underdog: Touchdowns per Game Last 3 Games,0.05195103267638456,0.01517848474819679,True
+Underdog: Penalty Yards per Game @,0.05169085850013413,0.01569568976427261,True
+Favorite: Third Downs per Game Last 3 Games,0.05099769077521423,0.017149993990265056,True
+Favorite: Passing Yards per Game This Season,-0.050565322638404325,0.018115805256996822,True
+Favorite: Third Downs per Game This Season,0.050244463627331294,0.01886298154679313,True
+Underdog: Non-Offensive Touchdowns per Game This Season,0.05013783659004902,0.019117174791281322,True
+Favorite: Turnover Margin per Game Last 3 Games,0.0490124359667804,0.021987861219742097,True
+Underdog: Time of Possession Percentage (Excluding OT) This Season,0.048730610165541005,0.022762900915427278,True
+Underdog: Average Time of Possession (Excluding OT) This Season,0.04870754828172042,0.022827360004808034,True
+Underdog: Interceptions Thrown per Game This Season,-0.048361057839448246,0.02381506463950689,True
+Underdog: Opponent Penalty First Downs per Game @,0.046876766778529144,0.028476735800004503,True
+Favorite: Red Zone Scoring Percentage (TD only) Last 3 Games,-0.04680760479386009,0.02871189210722911,True
+Underdog: Non-Offensive Touchdowns per Game @,0.04624615866368428,0.030683450242339066,True
+Underdog: Points per Game This Season,0.04620794264199675,0.030821773149002526,True
+Underdog: Passing Yards per Game Last 3 Games,0.04518357162364465,0.03473397414041322,True
+Favorite: Touchdowns per Game Last 3 Games,-0.04498362033619253,0.03554513469200047,True
+Underdog: Penalty First Downs per Game This Season,0.04372694874254716,0.04102162131262492,True
+Underdog: Opponent Yards per Game Last 3 Games,-0.04357206581961049,0.0417436273426653,True
+Favorite: Giveaways per Game Last 3 Games,-0.04309575654963864,0.044031705252333235,True
+Underdog: Red Zone Scoring Attempts per Game This Season,0.042711655859238924,0.04595307856960744,True
+Underdog: Seconds per Play @,0.04175445735647132,0.05105029940354222,False
+Underdog: Time of Possession Percentage (Excluding OT) Last 3 Games,0.041636630506344086,0.05170926951365024,False
+Underdog: Opponent Passing Yards per Game This Season,-0.04138843392633904,0.05312064833622503,False

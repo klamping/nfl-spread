@@ -1,0 +1,67 @@
+[
+    {
+        "Matchup": "Detroit (-3.5) vs Green Bay",
+        "Prediction": 0.4936037063598633,
+        "Spread": "3.5"
+    },
+    {
+        "Matchup": "Miami (-5.5) vs NY Jets",
+        "Prediction": 0.39224058389663696,
+        "Spread": "5.5"
+    },
+    {
+        "Matchup": "Minnesota (-5.5) vs Atlanta",
+        "Prediction": 0.47567954659461975,
+        "Spread": "5.5"
+    },
+    {
+        "Matchup": "New Orleans (-4.5) @ NY Giants",
+        "Prediction": 0.24244573712348938,
+        "Spread": "4.5"
+    },
+    {
+        "Matchup": "Philadelphia (-12.5) vs Carolina",
+        "Prediction": 0.5858656167984009,
+        "Spread": "12.5"
+    },
+    {
+        "Matchup": "Pittsburgh (-6.5) vs Cleveland",
+        "Prediction": 0.5942941904067993,
+        "Spread": "6.5"
+    },
+    {
+        "Matchup": "Tampa Bay (-6.5) vs Las Vegas",
+        "Prediction": 0.3778895139694214,
+        "Spread": "6.5"
+    },
+    {
+        "Matchup": "Tennessee (-3.5) vs Jacksonville",
+        "Prediction": 0.4627518057823181,
+        "Spread": "3.5"
+    },
+    {
+        "Matchup": "Arizona (-2.5) vs Seattle",
+        "Prediction": 0.5199346542358398,
+        "Spread": "2.5"
+    },
+    {
+        "Matchup": "Buffalo (-3.5) @ LA Rams",
+        "Prediction": 0.5562745332717896,
+        "Spread": "3.5"
+    },
+    {
+        "Matchup": "San Francisco (-3.5) vs Chicago",
+        "Prediction": 0.30992525815963745,
+        "Spread": "3.5"
+    },
+    {
+        "Matchup": "Kansas City (-4.5) vs LA Chargers",
+        "Prediction": 0.35803869366645813,
+        "Spread": "4.5"
+    },
+    {
+        "Matchup": "Cincinnati (-5.5) @ Dallas",
+        "Prediction": 0.39899468421936035,
+        "Spread": "5.5"
+    }
+]

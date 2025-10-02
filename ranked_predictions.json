@@ -1,0 +1,93 @@
+[
+  {
+    "Matchup": "New Orleans (-4.5) @ NY Giants",
+    "Prediction": 0.24244573712348938,
+    "Spread": "4.5",
+    "Confidence": 0.2575542628765106,
+    "Rank": 13
+  },
+  {
+    "Matchup": "San Francisco (-3.5) vs Chicago",
+    "Prediction": 0.30992525815963745,
+    "Spread": "3.5",
+    "Confidence": 0.19007474184036255,
+    "Rank": 12
+  },
+  {
+    "Matchup": "Kansas City (-4.5) vs LA Chargers",
+    "Prediction": 0.35803869366645813,
+    "Spread": "4.5",
+    "Confidence": 0.14196130633354187,
+    "Rank": 11
+  },
+  {
+    "Matchup": "Tampa Bay (-6.5) vs Las Vegas",
+    "Prediction": 0.3778895139694214,
+    "Spread": "6.5",
+    "Confidence": 0.12211048603057861,
+    "Rank": 10
+  },
+  {
+    "Matchup": "Miami (-5.5) vs NY Jets",
+    "Prediction": 0.39224058389663696,
+    "Spread": "5.5",
+    "Confidence": 0.10775941610336304,
+    "Rank": 9
+  },
+  {
+    "Matchup": "Cincinnati (-5.5) @ Dallas",
+    "Prediction": 0.39899468421936035,
+    "Spread": "5.5",
+    "Confidence": 0.10100531578063965,
+    "Rank": 8
+  },
+  {
+    "Matchup": "Pittsburgh (-6.5) vs Cleveland",
+    "Prediction": 0.5942941904067993,
+    "Spread": "6.5",
+    "Confidence": 0.09429419040679932,
+    "Rank": 7
+  },
+  {
+    "Matchup": "Philadelphia (-12.5) vs Carolina",
+    "Prediction": 0.5858656167984009,
+    "Spread": "12.5",
+    "Confidence": 0.08586561679840088,
+    "Rank": 6
+  },
+  {
+    "Matchup": "Buffalo (-3.5) @ LA Rams",
+    "Prediction": 0.5562745332717896,
+    "Spread": "3.5",
+    "Confidence": 0.05627453327178955,
+    "Rank": 5
+  },
+  {
+    "Matchup": "Tennessee (-3.5) vs Jacksonville",
+    "Prediction": 0.4627518057823181,
+    "Spread": "3.5",
+    "Confidence": 0.037248194217681885,
+    "Rank": 4
+  },
+  {
+    "Matchup": "Minnesota (-5.5) vs Atlanta",
+    "Prediction": 0.47567954659461975,
+    "Spread": "5.5",
+    "Confidence": 0.02432045340538025,
+    "Rank": 3
+  },
+  {
+    "Matchup": "Arizona (-2.5) vs Seattle",
+    "Prediction": 0.5199346542358398,
+    "Spread": "2.5",
+    "Confidence": 0.019934654235839844,
+    "Rank": 2
+  },
+  {
+    "Matchup": "Detroit (-3.5) vs Green Bay",
+    "Prediction": 0.4936037063598633,
+    "Spread": "3.5",
+    "Confidence": 0.006396293640136719,
+    "Rank": 1
+  }
+]

@@ -15,7 +15,8 @@ const sortedResults = groupedResults.sort((a, b) => a.Spread - b.Spread);
 const totalCounts = sortedResults.map(spread => spread.Count);
 const correctCounts = sortedResults.map(spread => spread.CorrectCount);
 const incorrectCounts = totalCounts.map((total, i) => total - correctCounts[i]);
-const percentCorrect = sortedResults.map(spread => spread.PercentCorrect * 100);
+const percentCorrect = sortedResults.map(spread => spread.raw * 100);
+const percentCorrectSmoothed = sortedResults.map(spread => spread.smoothed * 100);
 
 // Generate the chart
 (async () => {
@@ -41,6 +42,14 @@ const percentCorrect = sortedResults.map(spread => spread.PercentCorrect * 100);
                     data: percentCorrect,
                     type: 'line',
                     borderColor: 'rgba(255, 99, 132, 1)',
+                    fill: false,
+                    yAxisID: 'y2',
+                },
+                {
+                    label: 'Percent Correct (Smoothed)',
+                    data: percentCorrectSmoothed,
+                    type: 'line',
+                    borderColor: 'rgba(99, 99, 132, 1)',
                     fill: false,
                     yAxisID: 'y2',
                 },

@@ -11,6 +11,9 @@ dates=(
   "2024-11-06"
   "2024-11-13"
   "2024-11-20"
+  "2024-11-27"
+  "2024-12-03"
+  "2024-12-11"
 )
 
 # Loop through each date using an index
@@ -23,5 +26,6 @@ do
   date="${dates[i]}"
   
   # Run the command with the current date and calculated index
-  node createCSV.js -d "$date" -w "$index_with_offset" -p
+  node stats-collater.js -d "$date"
+  node createDiffCSV.js -d "$date" -w "$index_with_offset"
 done

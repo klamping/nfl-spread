@@ -2,17 +2,21 @@
 
 # Define an array of dates
 dates=(
-  "2024-09-25"
-  "2024-10-02"
-  "2024-10-09"
-  "2024-10-16"
-  "2024-10-23"
-  "2024-10-30"
-  "2024-11-06"
-  "2024-11-13"
-  "2024-11-20"
-  "2024-11-27"
-  "2024-12-03"
+  "2025-09-23",
+  "2025-09-30",
+  "2025-10-07",
+  "2025-10-14",
+  "2025-10-21",
+  "2025-10-28",
+  "2025-11-04",
+  "2025-11-11",
+  "2025-11-18",
+  "2025-11-25",
+  "2025-12-02",
+  "2025-12-09",
+  "2025-12-16",
+  "2025-12-23",
+  "2025-12-30"
 )
 
 # Flag to determine whether to run the initial commands
@@ -37,8 +41,7 @@ if [ "$run_initial_commands" = true ]; then
   for date in "${dates[@]}"
   do
     # Run the command with the current date
-    python3 tsfour/run-models.py -d "$date"
-    # node ../combineResults.js -d "$date"
+    python3 tsseven/run.py -d "$date"
   done
 fi
 
@@ -55,11 +58,13 @@ fi
   # Loop through each date in the array
   for date in "${dates[@]}"
   do
-    node ./weightPredictions.js -d "$date" -l tsfour -w 4 
-    node ./check-predictions.js -d "$date" -l tsfour
+    # node ./weightPredictions.js -d "$date" -l tsseven
+    node ./weightPDPredictions.js -d "$date" -l tsseven
+    # node ./tsseven/combinePredictions.js -d "$date"
+    node ./check-predictions.js -d "$date" -l tsseven -p
   done
-  node ./combineAllResults.js
-  node ./calcConfidencePercent.js
+  node ./combineAllResults.js -l tsseven
+  # node ./calcConfidencePercent.js
 # done
 
 # Initialize cumulative values

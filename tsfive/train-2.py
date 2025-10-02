@@ -17,10 +17,10 @@ from tensorflow.keras import layers, callbacks, optimizers
 data_path = os.path.join(os.getcwd(), f'../model-data/seasons-no-2024-pointDiff.csv')
 
 data = pd.read_csv(data_path)
-significant_features_df = pd.read_csv("significant_features.csv")
+significant_features_df = pd.read_csv("Significant_Correlations_with_Target.csv")
 significant_features = significant_features_df['Feature'].tolist()
 
-target_column = "Favorite Won By"
+target_column = "Target"
 all_features = significant_features + [target_column]
 data = data[all_features].dropna()
 
@@ -43,17 +43,24 @@ X_test = scaler.transform(X_test)
 
 def build_model(input_dim):
     model = keras.Sequential([
-        layers.Dense(128, activation='relu', input_shape=(input_dim,)),
-        layers.Dense(64, activation='relu'),
-        layers.Dense(32, activation='relu'),
+        keras.Input(shape=(input_dim,)),
+        layers.Dense(512, activation='relu', kernel_regularizer=keras.regularizers.l2(0.01)),
+        layers.BatchNormalization(),
+        layers.Dropout(0.4),
+        layers.Dense(256, activation='relu', kernel_regularizer=keras.regularizers.l2(0.01)),
+        layers.BatchNormalization(),
+        layers.Dropout(0.4),
+        layers.Dense(128, activation='relu', kernel_regularizer=keras.regularizers.l2(0.01)),
+        layers.Dropout(0.4),
         layers.Dense(1, activation='linear')
     ])
     model.compile(
-        optimizer=optimizers.Adam(learning_rate=0.001),
+        optimizer=optimizers.AdamW(learning_rate=0.001, weight_decay=1e-5),
         loss='mean_squared_error',
         metrics=['mean_absolute_error']
     )
     return model
+
 
 # -----------------------------------------------------------------------
 # 3. K-Fold Cross-Validation
@@ -73,7 +80,7 @@ for train_index, val_index in kf.split(X_train_full):
     
     # Early stopping for each fold
     early_stopping_cb = callbacks.EarlyStopping(
-        monitor='val_loss', patience=20, restore_best_weights=True
+        monitor='val_loss', patience=10, restore_best_weights=True
     )
 
     history = model.fit(

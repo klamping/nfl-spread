@@ -13,8 +13,8 @@ data_path = '../model-data/seasons-no-2024-pointDiff.csv'
 data = pd.read_csv(data_path)
 
 # Separate features and target
-features = data.drop(columns=['Favorite Won By'])
-target = data['Favorite Won By']
+features = data.drop(columns=['Target'])
+target = data['Target']
 
 # Convert target to categories for stratification
 target_bins = pd.qcut(target, q=10, labels=False)
@@ -38,7 +38,7 @@ def lr_schedule(epoch, lr):
         return float(lr * tf.math.exp(-0.1))
 
 # Prepare StratifiedKFold
-kfold = StratifiedKFold(n_splits=10, shuffle=True, random_state=42)
+kfold = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
 history_list = []
 final_metrics = []
 

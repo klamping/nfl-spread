@@ -1,0 +1,68 @@
+Feature,Correlation,P-value
+Favorite: Turnover Margin per Game Last 1 Game vs. season average,-0.11740066707556959,2.668757225622988e-09
+Underdog: Average Scoring Margin Last 1 Game vs. season average,0.11710236873903723,2.9286215906760332e-09
+Favorite: Takeaways per Game Last 1 Game vs. season average,-0.11488240929672304,5.805400962776158e-09
+Favorite: Average Scoring Margin Last 1 Game vs. season average,-0.10832431493910173,4.06801656251984e-08
+Underdog: Opponent Points per Game Last 1 Game vs. season average,-0.1070431883381885,5.874103659934685e-08
+Underdog: Turnover Margin per Game Last 1 Game vs. season average,0.09040599445668936,4.739632542511294e-06
+Favorite: Points per Game Last 1 Game vs. season average,-0.08855941230142762,7.389308794819543e-06
+Favorite: Takeaways per Game Last 3 Games vs. season average,-0.08273028890440645,2.8381250514640284e-05
+Underdog: Opponent Yards per Game Last 1 Game vs. season average,-0.08265850233160348,2.8840240225046488e-05
+Favorite: Touchdowns per Game Last 1 Game vs. season average,-0.080729431831152,4.4171220430191625e-05
+Underdog: Seconds per Play Last 1 Game vs. season average,0.07856498450316225,7.048324671842635e-05
+Favorite: Turnover Margin per Game Last 3 Games vs. season average,-0.07807022186776674,7.830108620797357e-05
+Underdog: Opponent Rushing Yards per Game Last 1 Game vs. season average,-0.07419234745428138,0.00017486722082300454
+Underdog: Opponent Points per Game Last 3 Games vs. season average,-0.07365398266085352,0.00019492967886216198
+Underdog: Takeaways per Game Last 1 Game vs. season average,0.07224466632077643,0.00025816113267659304
+Underdog: Sacks per Game @ vs. season average,0.0707872285890795,0.0003434330129832752
+Favorite: Average Scoring Margin Last 3 Games vs. season average,-0.06881103758202715,0.0005015370883443349
+Favorite: Rushing Yards per Game Last 1 Game vs. season average,-0.06793739960945099,0.0005911358634520332
+Underdog: Opponent Rushing Yards per Game Last 3 Games vs. season average,-0.06743838842382649,0.000648781381306902
+Underdog: Giveaways per Game Last 1 Game vs. season average,-0.0658018061934752,0.0008765666274069318
+Favorite: Opponent Points per Game Last 1 Game vs. season average,0.06558730164980409,0.0009113899229064344
+Favorite: Turnover Margin per Game This Season,0.06541621093691467,0.0009400791320672495
+Favorite: Non-Offensive Touchdowns per Game Last 1 Game vs. season average,-0.06499156057420657,0.0010149380452707773
+Underdog: Opponent Third Down Conversion Percentage Last 1 Game vs. season average,-0.06334142626059915,0.00136125769870109
+Underdog: Average Scoring Margin Last 3 Games vs. season average,0.06296959631830935,0.0014530328464223811
+Favorite: Opponent Rushing Yards per Game Last 1 Game vs. season average,0.06289484823965098,0.0014721567250802086
+Favorite: Interceptions Thrown per Game This Season,-0.06166634695095122,0.0018215623238015991
+Underdog: Opponent Yards per Game Last 3 Games vs. season average,-0.060145284910405473,0.0023592369343849837
+Underdog: Interceptions Thrown per Game Last 1 Game vs. season average,-0.05962349726649799,0.0025748268026119167
+Underdog: Sack Percentage @ vs. season average,0.05955211731077187,0.0026056800183830936
+Favorite: Giveaways per Game Last 1 Game vs. season average,0.059356877914581906,0.0026918036797753966
+Underdog: Seconds per Play Last 3 Games vs. season average,0.05833786495855291,0.003184987238822113
+Underdog: Time of Possession Percentage (Excluding OT) Last 1 Game vs. season average,0.05813325116061528,0.00329343048401372
+Favorite: Fumbles per Game Last 3 Games vs. season average,0.058030710185555355,0.003349031029924798
+Underdog: Points per Game Last 1 Game vs. season average,0.05776696933139453,0.003495984879102756
+Favorite: QB Sacked per Game Last 1 Game vs. season average,0.057736571854297855,0.003513293670892982
+Underdog: Average Time of Possession (Excluding OT) Last 1 Game vs. season average,0.055061483409063146,0.005379279014414912
+Underdog: Fumbles per Game @ vs. season average,0.05366210682877316,0.006676670771588652
+Favorite: Points per Game Last 3 Games vs. season average,-0.05252789707252575,0.007927505673202717
+Favorite: Interceptions Thrown per Game Last 1 Game vs. season average,0.05171496623602031,0.008949036124438453
+Underdog: Turnover Margin per Game Last 3 Games vs. season average,0.05129555683270944,0.009520715794298475
+Underdog: Sacks per Game Last 1 Game vs. season average,0.05101104302722753,0.009926833751050185
+Favorite: Seconds per Play Last 1 Game vs. season average,-0.05033341036561257,0.010956828484847782
+Favorite: Giveaways per Game This Season,-0.05010657890116907,0.011322227998599423
+Underdog: Takeaways per Game Last 3 Games vs. season average,0.04925163628734618,0.012798488140082664
+Favorite: Tackles per Game Last 1 Game vs. season average,0.048933528859612406,0.013389779401993549
+Underdog: Tackles per Game Last 3 Games vs. season average,-0.04847141579469956,0.014291718999931164
+Underdog: Opponent Third Down Conversions per Game Last 1 Game vs. season average,-0.047567632575610384,0.016211673259642262
+Favorite: Sacks per Game Last 1 Game vs. season average,-0.046842820865564024,0.017911541404250792
+Favorite: Average Time of Possession (Excluding OT) Last 1 Game vs. season average,-0.04433323472084909,0.025059872889517068
+Favorite: Takeaways per Game This Season,0.044313337374612904,0.025125222008250105
+Favorite: Fumbles per Game Last 1 Game vs. season average,0.04422056269484855,0.025431873116605264
+Underdog: Opponent Third Down Conversion Percentage Last 3 Games vs. season average,-0.044126932277544544,0.02574462886464762
+Underdog: Average Time of Possession (Excluding OT) Last 3 Games vs. season average,0.044068026951002724,0.02594309071220608
+Favorite: Opponent Points per Game Last 3 Games vs. season average,0.044010818892347,0.026137098215165445
+Favorite: Touchdowns per Game Last 3 Games vs. season average,-0.043318333171777565,0.028586705041166696
+Favorite: Opponent Third Down Conversion Percentage Last 1 Game vs. season average,0.043035942866161185,0.02964096308489639
+Favorite: Time of Possession Percentage (Excluding OT) Last 1 Game vs. season average,-0.04302180556010163,0.029694609467581783
+Favorite: Opponent Third Down Conversions per Game Last 1 Game vs. season average,0.042782569299252546,0.03061516443712254
+Underdog: Time of Possession Percentage (Excluding OT) Last 3 Games vs. season average,0.04249403047422152,0.03175792013723925
+Favorite: Average Scoring Margin This Season,0.04178219800748695,0.03473450354014476
+Underdog: Non-Offensive Touchdowns per Game Last 1 Game vs. season average,0.04129896940973313,0.036888187903435884
+Underdog: Tackles per Game Last 1 Game vs. season average,-0.040385214622969706,0.04127213753894517
+Underdog: Opponent Third Down Conversions per Game Last 3 Games vs. season average,-0.040278421520065374,0.04181218103817739
+Favorite: Red Zone Scoring Attempts per Game Last 1 Game vs. season average,-0.04019907106107665,0.04221730999209781
+Underdog: Rushing Yards per Game Last 3 Games vs. season average,0.0397137005319701,0.04476829861090942
+Underdog: Opponent Tackles per Game Last 1 Game vs. season average,0.03913201735408954,0.04799547225556373

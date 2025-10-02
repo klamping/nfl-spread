@@ -1,0 +1,167 @@
+[
+  {
+    "Matchup": "LA Rams (-1.5) @ Seattle",
+    "Spread": 1.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 6.2184399378,
+    "Agree": true,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 15
+  },
+  {
+    "Matchup": "Washington (-4.5) @ NY Giants",
+    "Spread": 4.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 5.3207874321,
+    "Agree": true,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 14
+  },
+  {
+    "Matchup": "Atlanta (-3.5) vs Dallas",
+    "Spread": 3.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 4.5409088902,
+    "Agree": true,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 13
+  },
+  {
+    "Matchup": "Detroit (-2.5) @ Green Bay",
+    "Spread": 2.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 2.7925981752,
+    "Agree": true,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 12
+  },
+  {
+    "Matchup": "Tennessee (-3.5) vs New England",
+    "Spread": 3.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 2.6983278103,
+    "Agree": true,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 11
+  },
+  {
+    "Matchup": "Arizona (-1.5) vs Chicago",
+    "Spread": 1.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 2.2037171278,
+    "Agree": true,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 10
+  },
+  {
+    "Matchup": "Baltimore (-8.5) vs Denver",
+    "Spread": 8.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 1.076549912,
+    "Agree": true,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 9
+  },
+  {
+    "Matchup": "Cincinnati (-7.5) vs Las Vegas",
+    "Spread": 7.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 0.7926401418,
+    "Agree": true,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 8
+  },
+  {
+    "Matchup": "LA Chargers (-1.5) @ Cleveland",
+    "Spread": 1.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 6.1651908098,
+    "Agree": false,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 7
+  },
+  {
+    "Matchup": "Kansas City (-9.5) vs Tampa Bay",
+    "Spread": 9.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": false,
+    "PointDiff": 5.103286634,
+    "Agree": false,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 6
+  },
+  {
+    "Matchup": "Buffalo (-6.5) vs Miami",
+    "Spread": 6.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 4.0893859392,
+    "Agree": false,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 5
+  },
+  {
+    "Matchup": "NY Jets (-2.5) vs Houston",
+    "Spread": 2.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 1.3889473396,
+    "Agree": false,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 4
+  },
+  {
+    "Matchup": "Philadelphia (-7.5) vs Jacksonville",
+    "Spread": 7.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": false,
+    "PointDiff": 0.7213943369,
+    "Agree": false,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 3
+  },
+  {
+    "Matchup": "Minnesota (-5.5) vs Indianapolis",
+    "Spread": 5.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 0.265778348,
+    "Agree": false,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 2
+  },
+  {
+    "Matchup": "New Orleans (-7.5) @ Carolina",
+    "Spread": 7.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": false,
+    "PointDiff": 0.1406091563,
+    "Agree": false,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 1
+  }
+]

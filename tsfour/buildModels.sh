@@ -1,13 +1,17 @@
 #!/bin/bash
 
 models=(
-    'a'
-    'oneTwoThree'
-    'twoThreeFour'
+    'two'
+    'three'
     'four'
+    'fiveSix'
     'fourFiveSix'
-    'sevenEightNine'
-    'aboveNine'
+    'seven'
+    'eight'
+    'aboveEight'
+    'lower'
+    'middle'
+    'middleUp'
 )
 
 for model in "${models[@]}"

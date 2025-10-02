@@ -1,0 +1,16 @@
+Matchup,Spread,Favorite Covers,Prediction,Confidence,Weighted Confidence,Spread Accuracy,Points Assigned
+LA Rams (-7.5) vs Las Vegas,7.5,True,0.7579067,25.790668,41.393436,0.7037,15
+Buffalo (-9.5) vs Tennessee,9.5,False,0.25091344,24.908655,33.935623,0.507,14
+Green Bay (-3.5) vs Houston,3.5,False,0.36043623,13.956377,33.477146,0.6973,13
+Atlanta (-3.5) vs Seattle,3.5,True,0.63594365,13.594365,33.241837,0.6973,12
+Baltimore (-3.5) @ Tampa Bay,3.5,False,0.37282425,12.717575,32.67192,0.6973,11
+Indianapolis (-3.5) vs Miami,3.5,True,0.5887108,8.8710785,30.171701,0.6973,10
+Philadelphia (-3.5) @ NY Giants,3.5,False,0.42624903,7.3750973,29.199314,0.6973,9
+LA Chargers (-2.5) @ Arizona,2.5,False,0.39240003,10.759997,28.389498,0.6113,8
+Denver (-3.5) @ New Orleans,3.5,True,0.5456444,4.5644403,27.372387,0.6973,7
+Washington (-8.5) vs Carolina,8.5,False,0.31736153,18.263847,26.627499,0.4216,6
+Jacksonville (-6.5) vs New England,6.5,False,0.46862626,3.137374,24.316792,0.6365,5
+NY Jets (-2.5) @ Pittsburgh,2.5,True,0.54142153,4.1421533,24.0879,0.6113,4
+San Francisco (-1.5) vs Kansas City,1.5,False,0.48919818,1.0801822,22.54562,0.6241,3
+Minnesota (-1.5) vs Detroit,1.5,False,0.49285227,0.71477294,22.308102,0.6241,2
+Cincinnati (-5.5) @ Cleveland,5.5,True,0.5161257,1.6125679,19.741669,0.5341,1

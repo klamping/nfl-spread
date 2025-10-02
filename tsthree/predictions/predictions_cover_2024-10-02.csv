@@ -1,0 +1,15 @@
+Matchup,Favorite Covers,Prediction,Confidence,Spread,Points Assigned
+San Francisco (-7.5) vs Arizona,True,0.6420553,0.14205527,7.5,14
+Denver (-3.5) vs Las Vegas,True,0.6043805,0.10438049,3.5,13
+Jacksonville (-3.5) vs Indianapolis,True,0.6014532,0.101453185,3.5,12
+Buffalo (-1.5) @ Houston,False,0.40655744,0.09344256,1.5,11
+Washington (-3.5) vs Cleveland,False,0.42449895,0.075501055,3.5,10
+Green Bay (-3.5) @ LA Rams,False,0.4290747,0.070925295,3.5,9
+Chicago (-4.5) vs Carolina,True,0.554297,0.05429697,4.5,8
+Kansas City (-5.5) vs New Orleans,True,0.5506829,0.050682902,5.5,7
+Minnesota (-2.5) vs NY Jets,True,0.5477216,0.047721624,2.5,6
+New England (-0.5) vs Miami,True,0.53467596,0.034675956,0.5,5
+Pittsburgh (-2.5) vs Dallas,False,0.46673295,0.03326705,2.5,4
+Seattle (-6.5) vs NY Giants,False,0.4761479,0.02385211,6.5,3
+Atlanta (-2.5) vs Tampa Bay,False,0.48059398,0.01940602,2.5,2
+Baltimore (-2.5) @ Cincinnati,True,0.51937973,0.019379735,2.5,1

@@ -1,16 +1,9 @@
 const { writeFileSync } = require("fs");
 const { parseArgs } = require('node:util');
+const { weeks } = require('./season-2025.json');
 
 const { values } = parseArgs({ 
   options: {
-    date: {
-      type: 'string',
-      short: 'd',
-    },
-    week: {
-      type: 'string',
-      short: 'w'
-    },
     pointDiff: {
       type: 'boolean',
       short: 'p'
@@ -18,7 +11,9 @@ const { values } = parseArgs({
   }
 });
 
-const useSpecificWeek = !!(values.week && values.date);
+const weekNo = process.env.WEEK_NO;
+const date = weeks[weekNo - 1];
+const useSpecificWeek = !!(weekNo);
 const usePointDiff = values.pointDiff;
 const splitSpread = false;
 
@@ -27,16 +22,16 @@ let stats, seasons, outputPath;
 const fileAppend = usePointDiff ? '-pointDiff' : '';
 
 if (useSpecificWeek) {
-  stats = require(`./${values.date}-team-stats.json`);
-  const weekMatchups = require(`./results/matchups/2024-week-${values.week}.json`);
+  stats = require(`./${date}-team-stats.json`);
+  const weekMatchups = require(`./results/matchups/2025-week-${weekNo}.json`);
   seasons = {
-    [values.date]: weekMatchups
+    [date]: weekMatchups
   };
-  outputPath = `./model-data/${values.date}-lines${fileAppend}`;
+  outputPath = `./model-data/${date}-lines${fileAppend}`;
 } else {
   stats = require("./all-weekly-data-3.json");
   seasons = require("./seasons.json");
-  outputPath = `./model-data/seasons-no-2024${fileAppend}`;
+  outputPath = `./model-data/seasons-no-2025${fileAppend}`;
 }
 
 // This file will combine the weekly team stats, and the weekly game results, to create a CSV file that can be used to train a machine learning model.
@@ -111,9 +106,9 @@ function calcStatDiff(statName, stat, stats) {
 const spreadResults = {};
 
 for (const week of Object.keys(seasons)) {
-  // skip historical weeks from 2024
-  if (!useSpecificWeek && week.includes('2024') && !week.includes('2024-01')) {
-    console.log(`Skipping week ${week} because it's in the 2024 season`)
+  // skip historical weeks from 2025
+  if (!useSpecificWeek && week.includes('2025') && !week.includes('2025-01')) {
+    console.log(`Skipping week ${week} because it's in the 2025 season`)
     continue;
   }
 

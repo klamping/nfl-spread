@@ -1,0 +1,16 @@
+Matchup,Spread,Favorite Covers,Prediction,Confidence,Weighted Confidence,Spread Accuracy,Points Assigned
+New Orleans (-7.5) @ Carolina,7.5,False,0.27611744,22.388256,39.181866,0.7037,15
+Tennessee (-3.5) vs New England,3.5,False,0.37758303,12.241697,32.362602,0.6973,14
+Philadelphia (-7.5) vs Jacksonville,7.5,True,0.61246747,11.246747,31.939884,0.7037,13
+Atlanta (-3.5) vs Dallas,3.5,True,0.60717535,10.717535,31.371897,0.6973,12
+Detroit (-2.5) @ Green Bay,2.5,True,0.6342367,13.42367,30.120886,0.6113,11
+Cincinnati (-7.5) vs Las Vegas,7.5,True,0.58187854,8.187855,29.951605,0.7037,10
+Arizona (-1.5) vs Chicago,1.5,False,0.3916909,10.830909,28.88359,0.6241,9
+Baltimore (-8.5) vs Denver,8.5,False,0.2870782,21.29218,28.595919,0.4216,8
+LA Rams (-1.5) @ Seattle,1.5,True,0.59722924,9.722924,28.1634,0.6241,7
+Minnesota (-5.5) vs Indianapolis,5.5,True,0.6350741,13.507408,27.473312,0.5341,6
+Washington (-4.5) @ NY Giants,4.5,True,0.6136756,11.367559,27.289915,0.5686,5
+Buffalo (-6.5) vs Miami,6.5,True,0.5698471,6.9847107,26.81756,0.6365,4
+NY Jets (-2.5) vs Houston,2.5,True,0.5629457,6.2945724,25.486973,0.6113,3
+LA Chargers (-1.5) @ Cleveland,1.5,True,0.5503571,5.0357103,25.116713,0.6241,2
+Kansas City (-9.5) vs Tampa Bay,9.5,False,0.46416423,3.5835772,20.074326,0.507,1

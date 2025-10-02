@@ -84,7 +84,8 @@ function addResults(predictions, gameResults) {
 
 const gameResults = gameData[date];
 const updatedPredictions = addResults(predictions, gameResults);
-const outputFilename = `./${location}/predictions/prediction_results_${date}.json`;
+const fileNameAppend = combined ? '_combined' : pointDiff ? '' : '_cover';
+const outputFilename = `./${location}/predictions/prediction_results_${date}${fileNameAppend}.json`;
 fs.writeFileSync(outputFilename, JSON.stringify(updatedPredictions, null, 2), 'utf8');
 
-// console.log(`\nPredictions results have been saved to ${outputFilename}`);
+console.log(`\nPredictions results have been saved to ${outputFilename}`);

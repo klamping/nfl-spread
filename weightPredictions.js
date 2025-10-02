@@ -24,7 +24,7 @@ const { values } = parseArgs({
 const { date, location } = values;
 
 // Load raw predictions data
-const rawPredictionsFile = `./${location}/predictions/raw_predictions_${date}.json`;
+const rawPredictionsFile = `./${location}/predictions/raw_predictions_${date}_cover.json`;
 const percCorrectFile = './percCorrect.json';
 const confidencePercentsFile = './confidencePercent.json';
 
@@ -36,9 +36,7 @@ const confidencePercents = JSON.parse(fs.readFileSync(confidencePercentsFile, 'u
 // Calculate confidence, weighted confidence, and sort by it
 const predictionsWithConfidence = rawPredictions.map((item) => {
     const confidence = Math.abs(item.Prediction - 0.5);
-    console.log('item.Prediction', item.Prediction);
     const confidencePercentInfo = confidencePercents.find(({ lowerRange, upperRange }) => item.Prediction > lowerRange && item.Prediction < upperRange);
-    console.log('confidencePercentInfo', confidencePercentInfo)  
     const spreadPercent = percCorrect[item.Spread];
     const smoothedSpreadAccuracy = spreadPercent ? spreadPercent.smoothed : 0.45;
     const smoothedConfidenceAccuracy = confidencePercentInfo ? confidencePercentInfo.smoothedPercent : 0.45;
@@ -55,7 +53,7 @@ const predictionsWithConfidence = rawPredictions.map((item) => {
         ConfidencePercent: smoothedConfidenceAccuracy,
         Confidence: confidence
     };
-}).sort((a, b) => b.WeightedConfidence - a.WeightedConfidence);
+}).sort((a, b) => b.ConfidencePercent - a.ConfidencePercent);
 
 // Assign ranks based on weighted confidence
 const numPredictions = predictionsWithConfidence.length;

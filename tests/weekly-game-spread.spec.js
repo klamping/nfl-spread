@@ -2,36 +2,19 @@ const { test } = require("@playwright/test");
 const { writeFileSync } = require("fs");
 const mapTeamName = require("../mapTeamName.js");
 const { smoothedAccuracy } = require('../utils.js');
+const season = require('../season-2025.json');
 
-const useSpecificWeek = false;
-const weekNo = 14;
-const dates = [
-  "2024-09-25",
-  "2024-10-02",
-  "2024-10-09",
-  "2024-10-16",
-  "2024-10-23",
-  "2024-10-30",
-  "2024-11-06",
-  "2024-11-13",
-  "2024-11-20",
-  "2024-11-27",
-  "2024-12-03"
-]
-const date = dates[weekNo - 4];
+const useSpecificWeek = process.env.HISTORICAL || true;
+const weekNo = process.env.WEEK_NO || 4;
 
-let { weeks } = require("./weeks.json");
+let weeks, date;
 
 if (useSpecificWeek) {
-  weeks = [ date ];
+  date = season.weeks[weekNo - 1];
+  weeks = [date]
+} else {
+  ({ weeks } = require("./weeks.json"));
 }
-
-// To add... 
-// - Travel and Rest Factors
-// - Weather
-// - Opponent Strength/SOS
-// - Injuries
-// - ATS Record
 
 const weeksByYear = weeks.reduce((acc, week) => {
   const date = week.split("-");
@@ -145,9 +128,7 @@ for (const [year, weeks] of Object.entries(weeksByYear)) {
 
           const awayRecordText = await awayTeamInfo.locator("> div:nth-child(2)")
             .textContent();
-            console.log(awayRecordText)
           const { actual: awayRecord, smoothed: smoothedAwayRecord } = calculateWinningPercentage(awayRecordText);
-          console.log(awayRecord)
 
           const homeTeamInfo = await row
             .locator("td:nth-child(4) > div:nth-child(1)");
@@ -159,6 +140,7 @@ for (const [year, weeks] of Object.entries(weeksByYear)) {
             .textContent();
           const { actual: homeRecord, smoothed: smoothedHomeRecord } = calculateWinningPercentage(homeRecordText);
   
+          console.log(smoothedHomeRecord, smoothedAwayRecord, smoothedHomeRecord - smoothedAwayRecord)
           const spreadText = await row
             .locator("td:nth-child(3) > div:nth-child(2)")
             .textContent();

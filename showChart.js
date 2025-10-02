@@ -7,7 +7,7 @@ const height = 600; // Height of the image
 const chartJSNodeCanvas = new ChartJSNodeCanvas({ width, height });
 
 // Read the JSON data from a file
-const dataFile = 'results.json';
+const dataFile = 'groupedResults.json';
 let rawData;
 try {
     rawData = fs.readFileSync(dataFile, 'utf8');
@@ -25,21 +25,21 @@ try {
 }
 
 // Aggregate the data
-const spreadMap = {};
+// const spreadMap = {};
 
-inputData.results.forEach(entry => {
-    const spreadData = entry.spreadData;
-    for (const [spread, { total, correct }] of Object.entries(spreadData)) {
-        if (!spreadMap[spread]) {
-            spreadMap[spread] = { total: 0, correct: 0 };
-        }
-        spreadMap[spread].total += total;
-        spreadMap[spread].correct += correct;
-    }
-});
+// inputData.forEach(entry => {
+//     const spreadData = entry.spreadData;
+//     for (const [spread, { total, correct }] of Object.entries(spreadData)) {
+//         if (!spreadMap[spread]) {
+//             spreadMap[spread] = { total: 0, correct: 0 };
+//         }
+//         spreadMap[spread].total += total;
+//         spreadMap[spread].correct += correct;
+//     }
+// });
 
 // Prepare data for the chart
-const spreads = Object.keys(spreadMap)
+const spreads = Object.keys(inputData)
     .map(Number)
     .sort((a, b) => a - b);
 

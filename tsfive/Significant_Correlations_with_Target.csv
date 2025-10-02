@@ -1,0 +1,60 @@
+Feature,Correlation,P-value
+Win Percent Diff,0.1444930012551018,4.880784935731993e-13
+Average Time of Possession (Excluding OT) This Season,0.08066083548766675,5.805155347902758e-05
+Average Time of Possession (Excluding OT) Last 3 Games vs. season average,-0.04262084405324871,0.033840519545011445
+Average Time of Possession (Excluding OT) Last 1 Game vs. season average,-0.07446539873576362,0.00020653828342893373
+Average Time of Possession (Excluding OT) @ vs. season average,-0.0414533546226017,0.03903760488334822
+Completion Percentage This Season,0.10174565334193746,3.8446179387798087e-07
+Completion Percentage Last 3 Games vs. season average,-0.03939202122200884,0.049869313754335426
+Completion Percentage @ vs. season average,-0.05592954970708955,0.005344797191235562
+Extra Points Made per Game This Season,0.14685579099858656,2.010910579820492e-13
+Extra Points Made per Game Last 3 Games vs. season average,-0.058043302127299405,0.003841034976220324
+Extra Points Made per Game Last 1 Game vs. season average,-0.12429937391974254,5.305712376296037e-10
+Extra Points Made per Game @ vs. season average,-0.05763461590629076,0.004097701712267627
+First Downs per Game This Season,0.1079218128184028,7.187994988959425e-08
+First Downs per Game @ vs. season average,-0.03994961176565295,0.0467161917434729
+Fourth Downs per Game This Season,-0.047784408828778886,0.017344434042321534
+Fourth Downs per Game Last 1 Game vs. season average,0.043645137386184675,0.02977945034001325
+Giveaways per Game This Season,-0.11722838820777298,4.798892387059169e-09
+Giveaways per Game Last 1 Game vs. season average,0.08825725070244007,1.0792084084305451e-05
+Opponent Interceptions Thrown per Game This Season,0.08838070368365149,1.0488848157523757e-05
+Opponent Interceptions Thrown per Game Last 3 Games vs. season average,-0.045419622350179184,0.023731443954129454
+Opponent Interceptions Thrown per Game Last 1 Game vs. season average,-0.10184499727075544,3.745110794150754e-07
+Kicking Points per Game This Season,0.14456454860805315,4.752488146074437e-13
+Kicking Points per Game Last 3 Games vs. season average,-0.07259711358308667,0.0002974289865729747
+Kicking Points per Game Last 1 Game vs. season average,-0.09140162694253304,5.161974014167757e-06
+Kickoffs per Game This Season,0.19067633137709966,1.0000694674647882e-21
+Kickoffs per Game Last 3 Games vs. season average,-0.0695174664365944,0.0005328222242654627
+Kickoffs per Game Last 1 Game vs. season average,-0.1197420196736315,2.2255843283443324e-09
+Net Punt Yards per Game This Season,-0.1329480760150769,3.019705601596371e-11
+Net Punt Yards per Game Last 3 Games vs. season average,0.04145750044886799,0.0390180138233831
+Opponent Fumbles per Game Last 1 Game vs. season average,-0.058394763820698505,0.0036320779183089498
+Interceptions Thrown Percentage This Season,-0.10973984382034403,4.3090668048789043e-08
+Interceptions Thrown Percentage Last 1 Game vs. season average,0.06838612964670171,0.000656361462795523
+Points per Game This Season,0.17755673302437022,5.249270193333561e-19
+Points per Game Last 3 Games vs. season average,-0.07226042512679472,0.0003173522316475031
+Points per Game Last 1 Game vs. season average,-0.1371416628498793,7.022286161446025e-12
+Points per Game @ vs. season average,-0.050227791895893756,0.012379530639639572
+Punt Attempts per Game This Season,-0.13749362984970492,6.200363822682025e-12
+Punt Attempts per Game Last 3 Games vs. season average,0.050584838650816796,0.01177090157675978
+Rushing Attempts per Game This Season,0.10505100981619886,1.5857369767353655e-07
+Rushing Attempts per Game Last 3 Games vs. season average,-0.05349702544629744,0.00771813865555052
+Rushing Attempts per Game Last 1 Game vs. season average,-0.12192327715661998,1.1278589358117396e-09
+Rushing Attempts per Game @ vs. season average,-0.04110228335751989,0.04072715340296494
+Takeaways per Game This Season,0.09636328280109235,1.5347680458785556e-06
+Takeaways per Game Last 3 Games vs. season average,-0.06199680251256585,0.0020136788018410346
+Takeaways per Game Last 1 Game vs. season average,-0.13109660427008216,5.6678273424438615e-11
+Third Down Conversion Percentage This Season,0.10718277216575282,8.829167917286012e-08
+Third Down Conversion Percentage Last 1 Game vs. season average,-0.060819116584614724,0.0024501227975381817
+Third Down Conversion Percentage @ vs. season average,-0.041908935557268705,0.0369341150197041
+Touchdowns per Game This Season,0.14413966625041366,5.565914290993716e-13
+Touchdowns per Game Last 3 Games vs. season average,-0.05321661377518309,0.008045050987880978
+Touchdowns per Game Last 1 Game vs. season average,-0.11847748564491427,3.282331150058445e-09
+Touchdowns per Game @ vs. season average,-0.06586532685336748,0.001033243190555593
+Turnover Margin per Game This Season,0.1440484084741883,5.757679203167922e-13
+Turnover Margin per Game Last 3 Games vs. season average,-0.06146886820825576,0.002199665336442433
+Turnover Margin per Game Last 1 Game vs. season average,-0.1345650012331556,1.729950703110461e-11
+Yards per Game This Season,0.09089449378230814,5.82347300757495e-06
+Yards per Game Last 1 Game vs. season average,-0.04942218105047912,0.013856143893517423
+Yards per Pass Attempt This Season,0.09127573907011727,5.319127450854492e-06
+Yards per Pass Attempt Last 1 Game vs. season average,-0.04735988221492013,0.018365700486227064

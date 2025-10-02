@@ -7,6 +7,10 @@ const { values } = parseArgs({
     date: {
       type: 'string',
       short: 'd',
+    },
+    location: {
+      type: 'string',
+      short: 'l'
     }
   }
 });
@@ -105,7 +109,7 @@ function calculateCombinedPoints(coverFilePath, pointDiffFilePath) {
                         });
 
                         // Write the output to a new CSV file
-                        const outputFilePath = path.join(__dirname, 'tsthree', 'predictions', `combined_points_${date}.csv`);
+                        const outputFilePath = path.join(__dirname, location, 'predictions', `combined_points_${date}.csv`);
                         const writeStream = fs.createWriteStream(outputFilePath);
                         writeStream.write('Matchup,Favorite Covers,Points Assigned\n');
                         outputData.forEach((row) => {
@@ -122,8 +126,8 @@ function calculateCombinedPoints(coverFilePath, pointDiffFilePath) {
 }
 
 // Example usage
-const coverFilePath = path.join(__dirname, 'tsthree', 'predictions', `predictions_cover_${date}.csv`);
-const pointDiffFilePath = path.join(__dirname, 'tsthree', 'predictions', `predictions_point_diff_${date}.csv`);
+const coverFilePath = path.join(__dirname, location, 'predictions', `predictions_cover_${date}.csv`);
+const pointDiffFilePath = path.join(__dirname, location, 'predictions', `predictions_point_diff_${date}.csv`);
 
 calculateCombinedPoints(coverFilePath, pointDiffFilePath)
     .then((combinedData) => {

@@ -67,7 +67,7 @@ def build_model(input_shape):
     return model
 
 # K-fold Cross-Validation
-kf = KFold(n_splits=10, shuffle=True, random_state=42)
+kf = KFold(n_splits=5, shuffle=True, random_state=42)
 histories = []
 evaluation_results = []
 
@@ -84,7 +84,7 @@ for train_index, test_index in kf.split(X_reduced):
         X_train, y_train,
         validation_data=(X_test, y_test),
         epochs=100,
-        batch_size=16,
+        batch_size=32,
         verbose=1,
         callbacks=[early_stopping]
     )

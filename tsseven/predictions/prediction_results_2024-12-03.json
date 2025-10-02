@@ -1,0 +1,132 @@
+[
+  {
+    "Matchup": "Miami (-5.5) vs NY Jets",
+    "Will Cover": false,
+    "Prediction": 1.3871500533,
+    "Spread": 5.5,
+    "Difference": -4.1128499467,
+    "WillCoverSpread": false,
+    "points": 13,
+    "correct": false
+  },
+  {
+    "Matchup": "Minnesota (-5.5) vs Atlanta",
+    "Will Cover": true,
+    "Prediction": 8.7411144169,
+    "Spread": 5.5,
+    "Difference": 3.2411144169,
+    "WillCoverSpread": true,
+    "points": 12,
+    "correct": true
+  },
+  {
+    "Matchup": "Pittsburgh (-6.5) vs Cleveland",
+    "Will Cover": true,
+    "Prediction": 9.6965618583,
+    "Spread": 6.5,
+    "Difference": 3.1965618583,
+    "WillCoverSpread": true,
+    "points": 11,
+    "correct": true
+  },
+  {
+    "Matchup": "Philadelphia (-13.5) vs Carolina",
+    "Will Cover": false,
+    "Prediction": 10.4318616906,
+    "Spread": 13.5,
+    "Difference": -3.0681383094,
+    "WillCoverSpread": false,
+    "points": 10,
+    "correct": true
+  },
+  {
+    "Matchup": "San Francisco (-3.5) vs Chicago",
+    "Will Cover": false,
+    "Prediction": 1.0017271044,
+    "Spread": 3.5,
+    "Difference": -2.4982728956,
+    "WillCoverSpread": false,
+    "points": 9,
+    "correct": false
+  },
+  {
+    "Matchup": "Kansas City (-4.5) vs LA Chargers",
+    "Will Cover": false,
+    "Prediction": 2.0488364259,
+    "Spread": 4.5,
+    "Difference": -2.4511635741,
+    "WillCoverSpread": false,
+    "points": 8,
+    "correct": true
+  },
+  {
+    "Matchup": "Tampa Bay (-6.5) vs Las Vegas",
+    "Will Cover": true,
+    "Prediction": 7.4061887468,
+    "Spread": 6.5,
+    "Difference": 0.9061887468,
+    "WillCoverSpread": true,
+    "points": 7,
+    "correct": true
+  },
+  {
+    "Matchup": "New Orleans (-4.5) @ NY Giants",
+    "Will Cover": true,
+    "Prediction": 5.3682536891,
+    "Spread": 4.5,
+    "Difference": 0.8682536891,
+    "WillCoverSpread": true,
+    "points": 6,
+    "correct": false
+  },
+  {
+    "Matchup": "Detroit (-3.5) vs Green Bay",
+    "Will Cover": false,
+    "Prediction": 2.7831033522,
+    "Spread": 3.5,
+    "Difference": -0.7168966478,
+    "WillCoverSpread": false,
+    "points": 5,
+    "correct": true
+  },
+  {
+    "Matchup": "Tennessee (-3.5) vs Jacksonville",
+    "Will Cover": false,
+    "Prediction": 2.9549056511,
+    "Spread": 3.5,
+    "Difference": -0.5450943489,
+    "WillCoverSpread": false,
+    "points": 4,
+    "correct": true
+  },
+  {
+    "Matchup": "Cincinnati (-5.5) @ Dallas",
+    "Will Cover": true,
+    "Prediction": 5.7784840457,
+    "Spread": 5.5,
+    "Difference": 0.2784840457,
+    "WillCoverSpread": true,
+    "points": 3,
+    "correct": true
+  },
+  {
+    "Matchup": "Arizona (-2.5) vs Seattle",
+    "Will Cover": true,
+    "Prediction": 2.667017028,
+    "Spread": 2.5,
+    "Difference": 0.167017028,
+    "WillCoverSpread": true,
+    "points": 2,
+    "correct": false
+  },
+  {
+    "Matchup": "Buffalo (-3.5) @ LA Rams",
+    "Will Cover": true,
+    "Prediction": 3.6294924991,
+    "Spread": 3.5,
+    "Difference": 0.1294924991,
+    "WillCoverSpread": true,
+    "points": 1,
+    "correct": false
+  }
+]

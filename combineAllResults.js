@@ -1,5 +1,16 @@
 const { writeFileSync } = require("fs");
 const { smoothedAccuracyWithTotal } = require('./utils');
+const { parseArgs } = require('node:util');
+
+const { values } = parseArgs({ 
+  options: {
+    location: {
+      type: 'string',
+      short: 'l'
+    }
+  }
+});
+const { location } = values;
 
 const dates = [
   "2024-09-25",
@@ -12,11 +23,12 @@ const dates = [
   "2024-11-13",
   "2024-11-20",
   "2024-11-27",
-  "2024-12-03"
+  "2024-12-03",
+  "2024-12-11"
 ];
 
 const predictions = dates.map(date => {
-    return require(`./tsfour/predictions/prediction_results_${date}.json`);
+    return require(`./${location}/predictions/prediction_results_${date}.json`);
 });
 
 const allPredictions = predictions.flat();

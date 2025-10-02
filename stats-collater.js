@@ -1,18 +1,10 @@
 const fs = require('fs');
 const path = require('path');
-const { parseArgs } = require('node:util');
+const { weeks } = require('./season-2025.json');
 
-const { values } = parseArgs({ 
-  options: {
-    date: {
-      type: 'string',
-      short: 'd',
-    }
-  }
-});
-
-const week = values.date;
-const useSpecificWeek = !!week;
+const weekNo = process.env.WEEK_NO;
+const week = weeks[weekNo - 1];
+const useSpecificWeek = !!weekNo;
 
 const outputPath = useSpecificWeek ? week + '-team-stats' : "all-weekly-data-3";
 
@@ -79,4 +71,5 @@ fs.readdir(directoryPath, (err, files) => {
 
   // Log the collated data or save it to a new file
   fs.writeFileSync(outputPath+'.json', JSON.stringify(collatedData, null, 2));
+  console.log('Saved to ' + outputPath + '.json')
 });

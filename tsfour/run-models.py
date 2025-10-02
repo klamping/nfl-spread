@@ -17,13 +17,17 @@ __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file
 
 # Define spread categories
 spread_categories = {
-  "a": [0.5, 1.5],
-  "oneTwoThree": [2.5],
-  "twoThreeFour": [3.5],
-  "four": [4.5],
-  "fourFiveSix": [5.5, 6.5],
-  "sevenEightNine": [7.5, 8.5, 9.5],
-  "aboveNine": [10.5, 11.5, 12.5, 13.5, 14.5, 15.5, 16.5, 17.5]
+#   "a": [0.5, 1.5],
+#   "oneTwoThree": [2.5],
+#   "twoThreeFour": [3.5],
+#   "four": [4.5],
+#   "fourFiveSix": [5.5, 6.5],
+#   "sevenEightNine": [7.5, 8.5, 9.5],
+#   "aboveNine": [10.5, 11.5, 12.5, 13.5, 14.5, 15.5, 16.5, 17.5]
+#   "lower": [0.5, 1, 1.5, 2, 2.5, 3, 3.5],
+#   "middle": [4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5],
+#   "upper": [9,9.5,10,10.5,11,11.5,12,12.5,13,13.5,14,14.5,15,15.5,16,16.5,17,17.5]
+  "all": [0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9,9.5,10,10.5,11,11.5,12,12.5,13,13.5,14,14.5,15,15.5,16,16.5,17,17.5]
 }
 
 def get_spread_category(value):
@@ -35,8 +39,8 @@ def get_spread_category(value):
 def load_models_and_scalers():
     models_and_scalers = {}
     for category in spread_categories.keys():
-        model_path = os.path.join(__location__, f"best_balanced_model_{category}_trimmed.keras")
-        scaler_path = os.path.join(__location__, f"./scaler_{category}_trimmed.save")
+        model_path = os.path.join(__location__, f"models/best_balanced_model_{category}_diffs.keras")
+        scaler_path = os.path.join(__location__, f"models/scaler_{category}_diffs.save")
 
         if os.path.exists(model_path) and os.path.exists(scaler_path):
             models_and_scalers[category] = {

@@ -8,7 +8,7 @@ from tensorflow.keras.layers import Dense, Dropout
 import joblib
 
 # Load the dataset
-file_path = "../model-data/seasons-no-tie.csv"  # Update to your dataset path
+file_path = "../model-data/seasons-no-2024.csv"  # Update to your dataset path
 data = pd.read_csv(file_path)
 
 # Load correlation data from CSV

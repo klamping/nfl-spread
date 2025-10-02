@@ -3,13 +3,16 @@ const { writeFileSync } = require("fs");
 
 const mapTeamName = require("../mapTeamName.js");
 
-const week = 15;
-const year = 2024;
+const week = 4;
+const year = 2025;
 
 test("Get games for week " + week, async ({ page }) => {
   const weekResults = {};
+  const url = `https://gridirongames.com/nfl-weekly-schedule/?Year=${year}&Week=${week}`;
+  // const url = 'https://gridirongames.com/nfl-weekly-schedule/?Year=2025&Week=DP';
+
   await page.goto(
-    `https://gridirongames.com/nfl-weekly-schedule/?Year=${year}&Week=${week}`,
+    url,
       {
           waitUntil: "domcontentloaded"
       }
@@ -79,7 +82,7 @@ test("Get games for week " + week, async ({ page }) => {
   try {
     const path = `results/matchups/${year}-week-${week}.json`;
     writeFileSync(path, JSON.stringify(games, null, 2), "utf8");
-    console.log("Data successfully saved to disk");
+    console.log("Data successfully saved to disk", path);
   } catch (error) {
     console.log("An error has occurred ", error);
   }

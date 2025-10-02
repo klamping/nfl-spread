@@ -1,0 +1,178 @@
+[
+  {
+    "Matchup": "LA Chargers (-7.5) vs New Orleans",
+    "Spread": 7.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 5.3853988627,
+    "Agree": true,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 16
+  },
+  {
+    "Matchup": "NY Jets (-7.5) @ New England",
+    "Spread": 7.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 3.7815969181,
+    "Agree": true,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 15
+  },
+  {
+    "Matchup": "Baltimore (-9.5) @ Cleveland",
+    "Spread": 9.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 3.6986954465,
+    "Agree": true,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 14
+  },
+  {
+    "Matchup": "Chicago (-3.5) @ Washington",
+    "Spread": 3.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 3.2034399912,
+    "Agree": true,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 13
+  },
+  {
+    "Matchup": "San Francisco (-4.5) vs Dallas",
+    "Spread": 4.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 2.617214225,
+    "Agree": true,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 12
+  },
+  {
+    "Matchup": "Miami (-4.5) vs Arizona",
+    "Spread": 4.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": false,
+    "PointDiff": 2.2128639202,
+    "Agree": true,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 11
+  },
+  {
+    "Matchup": "Denver (-10.5) vs Carolina",
+    "Spread": 10.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 1.7074392089,
+    "Agree": true,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 10
+  },
+  {
+    "Matchup": "Green Bay (-4.5) @ Jacksonville",
+    "Spread": 4.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": true,
+    "PointDiff": 1.1901401718,
+    "Agree": true,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 9
+  },
+  {
+    "Matchup": "Detroit (-11.5) vs Tennessee",
+    "Spread": 11.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": false,
+    "PointDiff": 4.2900907813,
+    "Agree": false,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 8
+  },
+  {
+    "Matchup": "Cincinnati (-2.5) vs Philadelphia",
+    "Spread": 2.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 3.6501828263,
+    "Agree": false,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 7
+  },
+  {
+    "Matchup": "Houston (-5.5) vs Indianapolis",
+    "Spread": 5.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": false,
+    "PointDiff": 3.2462697572,
+    "Agree": false,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 6
+  },
+  {
+    "Matchup": "Minnesota (-3.5) @ LA Rams",
+    "Spread": 3.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 2.2989902091,
+    "Agree": false,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 5
+  },
+  {
+    "Matchup": "Buffalo (-3.5) @ Seattle",
+    "Spread": 3.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 1.5759212389,
+    "Agree": false,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 4
+  },
+  {
+    "Matchup": "Atlanta (-2.5) @ Tampa Bay",
+    "Spread": 2.5,
+    "CoverPrediction": false,
+    "PointDiffPrediction": true,
+    "PointDiff": 1.2766164249,
+    "Agree": false,
+    "Covers": true,
+    "Favorite Covers": true,
+    "Points Assigned": 3
+  },
+  {
+    "Matchup": "Kansas City (-9.5) @ Las Vegas",
+    "Spread": 9.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": false,
+    "PointDiff": 0.9935761165,
+    "Agree": false,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 2
+  },
+  {
+    "Matchup": "Pittsburgh (-6.5) vs NY Giants",
+    "Spread": 6.5,
+    "CoverPrediction": true,
+    "PointDiffPrediction": false,
+    "PointDiff": 0.4731897952,
+    "Agree": false,
+    "Covers": false,
+    "Favorite Covers": false,
+    "Points Assigned": 1
+  }
+]
